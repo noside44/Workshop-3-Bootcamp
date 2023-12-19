@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Your site is live at https://noside44.github.io/workshop-3-bootcamp/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
