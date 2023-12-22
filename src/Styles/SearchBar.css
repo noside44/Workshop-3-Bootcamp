@@ -1,0 +1,19 @@
+.searchBar-container{
+    width: 90%;
+    margin: auto;
+    background-color: #3a8ced;
+}
+.inactive{
+    display: none;
+}
+.close-icon{
+    width: 16px;
+    fill: #b8b8b8;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+}
+
+/* #3a8ced fondo search*/
+/* #c7c7c7 close icon*/

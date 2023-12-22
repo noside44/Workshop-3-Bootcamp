@@ -1,23 +1,47 @@
-import logo from './logo.svg';
 import './App.css';
+import { JobOffers } from './Componentes/JobOffers';
+import { jobs } from './Componentes/Jobs'
+import { SearchBar } from './Componentes/SearchBar';
+import { useState } from 'react';
 
 function App() {
+
+let [searchValue, setSearchValue] = useState("");
+ 
+let findData = []
+if(!findData){
+  findData = jobs
+}
+else{
+  findData = jobs.filter ((element) => {
+    return (element.ciudad.toLowerCase().includes(searchValue.toLowerCase()) || 
+            element.puesto.toLowerCase().includes(searchValue.toLowerCase()) ||
+            element.salario.toLowerCase().includes(searchValue.toLowerCase()) ||
+            element.empresa.toLowerCase().includes(searchValue.toLowerCase())
+           )   
+  })
+}
+ 
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SearchBar 
+        searchValue={searchValue}
+        setSearchValue={setSearchValue}
+      />
+      
+      {findData.map( item => 
+      <JobOffers
+        imagen={item.imagen}
+        alt={item.imagen}
+        key={item.id}
+        vacancy={item.puesto}
+        company={item.empresa}
+        location={item.ciudad}
+        salary={item.salario}
+        vacancies={item.numVacante}
+        published={item.fecha}
+      />)}
     </div>
   );
 }

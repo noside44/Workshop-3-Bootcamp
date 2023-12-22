@@ -1,0 +1,51 @@
+.job-container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 16px;
+}
+.logo-company{
+    width: 70px;
+    height: 70px;
+  }
+  .info-job-container{
+    width: 100%;
+  }
+  .info-job-container ul{
+    display: flex;
+    list-style: none;
+  }
+  .info-job-container li{
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 0 8px;
+    margin-right: 8px;
+    font-size: 12px;
+  }
+  .job-name{
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  .company-info div{
+    display: flex;
+    align-items: center;
+  }
+  .company-info p {
+    margin-left: 8px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: lighter;
+    max-width: 150px;
+    padding: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .company-name{
+    width: 200px;
+  }
