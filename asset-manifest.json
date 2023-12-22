@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/workshop-3-bootcamp/static/css/main.f855e6bc.css",
-    "main.js": "/workshop-3-bootcamp/static/js/main.492727bd.js",
-    "static/js/787.8c10d861.chunk.js": "/workshop-3-bootcamp/static/js/787.8c10d861.chunk.js",
-    "static/media/logo.svg": "/workshop-3-bootcamp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/workshop-3-bootcamp/static/css/main.45836a2b.css",
+    "main.js": "/workshop-3-bootcamp/static/js/main.073f9e22.js",
+    "static/media/Edulabs.png": "/workshop-3-bootcamp/static/media/Edulabs.20812e5d8821de8d7449.png",
+    "static/media/Queo.png": "/workshop-3-bootcamp/static/media/Queo.eefdc12bc7ef475d3a44.png",
+    "static/media/Intexus.png": "/workshop-3-bootcamp/static/media/Intexus.a2f5d02dc07456a1c040.png",
+    "static/media/Polittan.png": "/workshop-3-bootcamp/static/media/Polittan.445045b254ac74e21f5b.png",
     "index.html": "/workshop-3-bootcamp/index.html",
-    "main.f855e6bc.css.map": "/workshop-3-bootcamp/static/css/main.f855e6bc.css.map",
-    "main.492727bd.js.map": "/workshop-3-bootcamp/static/js/main.492727bd.js.map",
-    "787.8c10d861.chunk.js.map": "/workshop-3-bootcamp/static/js/787.8c10d861.chunk.js.map"
+    "main.45836a2b.css.map": "/workshop-3-bootcamp/static/css/main.45836a2b.css.map",
+    "main.073f9e22.js.map": "/workshop-3-bootcamp/static/js/main.073f9e22.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.492727bd.js"
+    "static/css/main.45836a2b.css",
+    "static/js/main.073f9e22.js"
   ]
 }
