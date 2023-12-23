@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/workshop-3-bootcamp/static/css/main.8a591d75.css",
-    "main.js": "/workshop-3-bootcamp/static/js/main.96ff2433.js",
+    "main.css": "/workshop-3-bootcamp/static/css/main.71032691.css",
+    "main.js": "/workshop-3-bootcamp/static/js/main.51298dbf.js",
     "static/media/Edulabs.png": "/workshop-3-bootcamp/static/media/Edulabs.20812e5d8821de8d7449.png",
     "static/media/Queo.png": "/workshop-3-bootcamp/static/media/Queo.eefdc12bc7ef475d3a44.png",
     "static/media/Intexus.png": "/workshop-3-bootcamp/static/media/Intexus.a2f5d02dc07456a1c040.png",
     "static/media/Polittan.png": "/workshop-3-bootcamp/static/media/Polittan.445045b254ac74e21f5b.png",
     "index.html": "/workshop-3-bootcamp/index.html",
-    "main.8a591d75.css.map": "/workshop-3-bootcamp/static/css/main.8a591d75.css.map",
-    "main.96ff2433.js.map": "/workshop-3-bootcamp/static/js/main.96ff2433.js.map"
+    "main.71032691.css.map": "/workshop-3-bootcamp/static/css/main.71032691.css.map",
+    "main.51298dbf.js.map": "/workshop-3-bootcamp/static/js/main.51298dbf.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a591d75.css",
-    "static/js/main.96ff2433.js"
+    "static/css/main.71032691.css",
+    "static/js/main.51298dbf.js"
   ]
 }
