@@ -1,0 +1,28 @@
+.navbar-nav .button1{
+    height: 30px;
+    margin-top: 5px;
+}
+.navbar-nav .btn:hover{
+    background-color: #E2E6EA;
+    color: #7c7c7d;
+}
+.navbar-nav .icon-button1{
+    width: 20px;
+    height: 20px;
+    fill: #7c7c7d;
+}
+.navbar-nav .icon-button2{
+    width: 22px;
+    height: 22px;
+    fill: black;
+}
+.navbar-nav .icon-button3{
+    width: 26px;
+    height: 26px;
+    border: none;
+}
+.user-text{
+    font-size: 10px;
+    color: #7c7c7d;
+}
+

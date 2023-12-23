@@ -5,8 +5,13 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaMoneyBill } from "react-icons/fa";
 import { IoIosPeople } from "react-icons/io";
 import { IoCalendar } from "react-icons/io5";
+import { MdLanguage } from "react-icons/md";
+import { BsWatch } from "react-icons/bs";
+// import { IoLockClosed } from "react-icons/io5";
+import { BiSolidCool } from "react-icons/bi";
+import { FaBookOpenReader } from "react-icons/fa6";
 
-function JobOffers ( {imagen, vacancy, company, location, salary, vacancies, published} ){
+function JobOffers ( {imagen, vacancy, company, location, salary, vacancies, published, ingles, remoto, capacitaciones, ambiente, flexible} ){
     return(
         <div className="job-container d-flex flex-row align-items-center border border-secondary-subtle rounded my-3">
             <img className='logo-company rounded'
@@ -58,14 +63,14 @@ function JobOffers ( {imagen, vacancy, company, location, salary, vacancies, pub
                             </p>
                         </div>
                         <div className="col">
-                            <div className="border border-black rounded-pill">
-                                xxxx
-                            </div>
-                            <div className="border border-black rounded-pill mx-1">
-                                xxxxxx
-                            </div>
-                            <div className="border border-black rounded-pill">
-                                xxxxxx
+                            <div>
+                                <span className="">
+                                    {ingles === true ? <MdLanguage className="me-1" /> : null}
+                                    {remoto === true ? <FaLocationDot className="me-1" /> : null}
+                                    {capacitaciones === true ? <FaBookOpenReader className="me-1"/> : null}
+                                    {ambiente === true ? <BiSolidCool className="me-1"/> : null}
+                                    {flexible === true ? <BsWatch className="me-1"/> : null}
+                                </span>
                             </div>
                         </div>
                     </div>

@@ -2,7 +2,9 @@ import './App.css';
 import { JobOffers } from './Componentes/JobOffers';
 import { jobs } from './Componentes/Jobs'
 import { SearchBar } from './Componentes/SearchBar';
+import { Navbar } from './Componentes/Navbar';
 import { useState } from 'react';
+
 
 function App() {
 
@@ -25,6 +27,7 @@ else{
 
   return (
     <div className="App">
+      <Navbar />
       <SearchBar 
         searchValue={searchValue}
         setSearchValue={setSearchValue}
@@ -41,6 +44,11 @@ else{
         salary={item.salario}
         vacancies={item.numVacante}
         published={item.fecha}
+        ingles={item.ingles}
+        remoto={item.remoto}
+        capacitaciones={item.capacitaciones}
+        ambiente={item.ambiente}
+        flexible={item.flexible}
       />)}
     </div>
   );
