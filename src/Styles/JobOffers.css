@@ -1,5 +1,5 @@
 .job-container{
-    width: 90%;
+    width: 98%;
     height: auto;
     margin: auto;
     background-color: #ffffff;
@@ -51,4 +51,7 @@
   }
   .company-name{
     width: 200px;
+  }
+  .benefit-icon{
+    cursor: pointer;
   }

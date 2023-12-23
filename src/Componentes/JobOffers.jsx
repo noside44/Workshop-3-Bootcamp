@@ -64,7 +64,7 @@ function JobOffers ( {imagen, vacancy, company, location, salary, vacancies, pub
                         </div>
                         <div className="col">
                             <div>
-                                <span className="">
+                                <span className="benefit-icon">
                                     {ingles === true ? <MdLanguage className="me-1" /> : null}
                                     {remoto === true ? <FaLocationDot className="me-1" /> : null}
                                     {capacitaciones === true ? <FaBookOpenReader className="me-1"/> : null}

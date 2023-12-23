@@ -1,5 +1,7 @@
 .searchBar-container{
-    width: 90%;
+    position: sticky;
+    top: 0;
+    width: 100%;
     margin: auto;
     background-color: #3a8ced;
 }

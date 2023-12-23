@@ -50,13 +50,13 @@ function Navbar(){
                                     <li><a className="dropdown-item" href="!#">Calculadora de salario</a></li>
                                 </ul>
                             </li>
-                            <button class="btn btn-outline-secondary button1 py-0 mx-2" type="submit">
+                            <button className="btn btn-outline-secondary button1 py-0 mx-2" type="submit">
                                 <MdLanguage className='icon-button1'/> Español
                             </button>
-                            <button class="btn btn-outline-secondary me-2" type="submit">
+                            <button className="btn btn-outline-secondary me-2" type="submit">
                                 <PiBellRingingFill className='icon-button2'/>
                             </button>
-                            <button class="btn d-flex flex-row px-0" type="submit">
+                            <button className="btn d-flex flex-row px-0" type="submit">
                                 <FaUserCircle className='icon-button3'/>
                                 <p className='mb-0 ms-1 user-text'>User</p> 
                             </button>
