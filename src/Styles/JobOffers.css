@@ -1,3 +1,7 @@
+.link-JobOffers{
+  width: 100%;
+  display: flex;
+}
 .job-container{
     width: 90%;
     height: auto;
