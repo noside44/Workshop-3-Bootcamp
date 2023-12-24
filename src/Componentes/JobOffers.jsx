@@ -8,7 +8,7 @@ import { MdLanguage } from "react-icons/md";
 import { BsWatch } from "react-icons/bs";
 import { BiSolidCool } from "react-icons/bi";
 import { FaBookOpenReader } from "react-icons/fa6";
-import { Link, Outlet } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 function JobOffers ( {imagen, vacancy, company, location, salary, vacancies, published, ingles, remoto, capacitaciones, ambiente, flexible} ){
     return(
