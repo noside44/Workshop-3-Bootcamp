@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/workshop-3-bootcamp/static/css/main.0aa60dcb.css",
-    "main.js": "/workshop-3-bootcamp/static/js/main.4197e4ba.js",
+    "main.js": "/workshop-3-bootcamp/static/js/main.3878b75e.js",
     "static/media/BG_JobPage.jpg": "/workshop-3-bootcamp/static/media/BG_JobPage.910d9bf16a51320e5f00.jpg",
     "static/media/Edulabs.png": "/workshop-3-bootcamp/static/media/Edulabs.20812e5d8821de8d7449.png",
     "static/media/Queo.png": "/workshop-3-bootcamp/static/media/Queo.eefdc12bc7ef475d3a44.png",
@@ -9,10 +9,10 @@
     "static/media/Polittan.png": "/workshop-3-bootcamp/static/media/Polittan.445045b254ac74e21f5b.png",
     "index.html": "/workshop-3-bootcamp/index.html",
     "main.0aa60dcb.css.map": "/workshop-3-bootcamp/static/css/main.0aa60dcb.css.map",
-    "main.4197e4ba.js.map": "/workshop-3-bootcamp/static/js/main.4197e4ba.js.map"
+    "main.3878b75e.js.map": "/workshop-3-bootcamp/static/js/main.3878b75e.js.map"
   },
   "entrypoints": [
     "static/css/main.0aa60dcb.css",
-    "static/js/main.4197e4ba.js"
+    "static/js/main.3878b75e.js"
   ]
 }
