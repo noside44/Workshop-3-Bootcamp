@@ -7,13 +7,14 @@ import { IoIosPeople } from "react-icons/io";
 import { IoCalendar } from "react-icons/io5";
 import { MdLanguage } from "react-icons/md";
 import { BsWatch } from "react-icons/bs";
-// import { IoLockClosed } from "react-icons/io5";
 import { BiSolidCool } from "react-icons/bi";
 import { FaBookOpenReader } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 function JobOffers ( {imagen, vacancy, company, location, salary, vacancies, published, ingles, remoto, capacitaciones, ambiente, flexible} ){
     return(
         <div className="job-container d-flex flex-row align-items-center border border-secondary-subtle rounded my-3">
+            <Link to='/JobPage' className="link-JobOffers">
             <img className='logo-company rounded'
                     src={require(`../Assets/img/${imagen}.png`)}
                     alt = {`${imagen}-logo`}
@@ -76,6 +77,7 @@ function JobOffers ( {imagen, vacancy, company, location, salary, vacancies, pub
                     </div>
                 </div>
             </div>
+            </Link>
         </div>
     )
 }

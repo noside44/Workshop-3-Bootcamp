@@ -1,0 +1,28 @@
+.jobPage header{
+    width: 100%;
+    background: url(../Assets/img/BG_JobPage.jpg), rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-blend-mode: darken;
+}
+.jobPage header{
+    color: white;
+}
+.jobPage .info-job{
+    color: white;
+    margin-bottom: 1rem;
+}
+.jobPage .container-info-job{
+    display: flex;
+}
+.jobPage .info-job .other-info-job{
+    color: white;
+    margin-right: 1.5rem;
+}
+.jobPage .info-job .job-label{
+    color: white;
+    margin-right: 0.5rem;
+    padding: 3px 5px;
+    border: 1px solid;
+    border-radius: 0.2rem;
+}
