@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.49061808.css",
-    "main.js": "/static/js/main.75c560ca.js",
-    "static/media/BG_JobPage.jpg": "/static/media/BG_JobPage.910d9bf16a51320e5f00.jpg",
-    "static/media/Edulabs.png": "/static/media/Edulabs.20812e5d8821de8d7449.png",
-    "static/media/Queo.png": "/static/media/Queo.eefdc12bc7ef475d3a44.png",
-    "static/media/Intexus.png": "/static/media/Intexus.a2f5d02dc07456a1c040.png",
-    "static/media/Polittan.png": "/static/media/Polittan.445045b254ac74e21f5b.png",
-    "index.html": "/index.html",
-    "main.49061808.css.map": "/static/css/main.49061808.css.map",
-    "main.75c560ca.js.map": "/static/js/main.75c560ca.js.map"
+    "main.css": "/workshop-3-bootcamp/static/css/main.ec54466e.css",
+    "main.js": "/workshop-3-bootcamp/static/js/main.7e5343f0.js",
+    "static/media/BG_JobPage.jpg": "/workshop-3-bootcamp/static/media/BG_JobPage.910d9bf16a51320e5f00.jpg",
+    "static/media/Edulabs.png": "/workshop-3-bootcamp/static/media/Edulabs.20812e5d8821de8d7449.png",
+    "static/media/Queo.png": "/workshop-3-bootcamp/static/media/Queo.eefdc12bc7ef475d3a44.png",
+    "static/media/Intexus.png": "/workshop-3-bootcamp/static/media/Intexus.a2f5d02dc07456a1c040.png",
+    "static/media/Polittan.png": "/workshop-3-bootcamp/static/media/Polittan.445045b254ac74e21f5b.png",
+    "index.html": "/workshop-3-bootcamp/index.html",
+    "main.ec54466e.css.map": "/workshop-3-bootcamp/static/css/main.ec54466e.css.map",
+    "main.7e5343f0.js.map": "/workshop-3-bootcamp/static/js/main.7e5343f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.49061808.css",
-    "static/js/main.75c560ca.js"
+    "static/css/main.ec54466e.css",
+    "static/js/main.7e5343f0.js"
   ]
 }
