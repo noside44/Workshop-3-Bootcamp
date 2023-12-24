@@ -1,10 +1,10 @@
 import './App.css';
 import { JobOffers } from './Componentes/JobOffers';
-import { FJobPage } from './Componentes/JobPage';
 import { jobs } from './Componentes/Jobs'
 import { SearchBar } from './Componentes/SearchBar';
 import { useState } from 'react';
 import { Route, Routes, Link, Navigate, useLocation} from 'react-router-dom';
+import { FJobPage } from './Componentes/FJobPage';
 
 const Home = () => {
   let [searchValue, setSearchValue] = useState("");
@@ -40,12 +40,7 @@ const Home = () => {
         vacancies={item.numVacante}
         published={item.fecha}
       />)}
-      <Routes>
-        <Route path='/Home' element={<Home />} />
-        <Route path='/jobPage' element={<JobPage />} />
-      </Routes>
     </div>
-    
   );
 }
 
@@ -58,8 +53,8 @@ const JobPage = () => {
 function App() {
   const location = useLocation();
 
-  if (location.pathname === '/') {
-    return <Navigate to="/Home" />;
+  if (location.pathname === '/' || location.pathname === '/workshop-3-bootcamp') {
+    return <Navigate to="/home" />;
   }
   return (
     <div className="App">
