@@ -59,9 +59,9 @@ const JobPage = () => {
 }
 
 function App() {
-  const location = useLocation();
+  const location = useLocation("");
 
-  if (location.pathname === '/' || location.pathname === '/workshop-3-bootcamp') {
+  if (location.pathname === 'https://noside44.github.io/' || location.pathname === 'https://noside44.github.io/workshop-3-bootcamp') {
     return <Navigate to="/home" />;
   }
   return (
