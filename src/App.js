@@ -32,7 +32,7 @@ else{
         <Navbar />
         <section className='main-jobs d-flex flex-row'>
             <Aside
-            />
+/>
             <div className='w-100'>
                 <SearchBar 
                     searchValue={searchValue}
